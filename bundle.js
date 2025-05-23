@@ -6357,6 +6357,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
         openshift: (a, e) =>
           `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
         glitch: (a) => `${a}.glitch.me`,
+        git: (a) => `leviajulianna09.github.io/${a}`,
         heroku: (a) => `${a}.herokuapp.com`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`,
@@ -6439,6 +6440,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             local: "Local",
             dvi: "DVI",
             glitch: "      ",
+            git: "      ",
             os: "OpenShift",
             heroku: "Heroku",
             your: "------",
@@ -6578,7 +6580,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             id: "01",
             type: "main",
             code: "glitch-singapore-3",
-            at: p.glitch("409-hellmode-new"),
+            at: p.git("409-hellmode"),
             prefer: !0,
             featured: 0, // For Featured Status.
           },
