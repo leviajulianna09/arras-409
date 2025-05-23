@@ -2698,7 +2698,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             sa.appendChild(d);
           }
         };
-      fetch("changelog.md", {
+      fetch("CHANGELOG.md", {
         cache: "no-cache",
       })
         .then((b) => b.text())
