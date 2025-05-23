@@ -1713,7 +1713,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             d = "https:" === location.protocol ? 1 : -1;
             let a = `${1 === (b.server.secure || d) ? "https" : "http"}://${
                 b.server.at
-              }mockups.json`,
+              }/mockups.json`,
               c = () =>
                 H.pullJSON(a)
                   .then((b) => {
