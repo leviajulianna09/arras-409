@@ -1,3 +1,7 @@
+# May 23, 2025 - Announcement
+
+- Game has been moved to Github as Glitch is basically removing all of its features for... some reason? But github is better and I should've done this awhile ago lol.
+
 # Mar. 27, 2025 - Beta 1.50
 
 - Huge Class 4 rework (see it ingame)
