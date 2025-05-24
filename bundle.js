@@ -1711,7 +1711,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
           document.getElementById("gameAreaWrapper").style.opacity = 1;
           if (!b.socket) {
             d = "https:" === location.protocol ? 1 : -1;
-            let a = `${1 === (b.server.secure || d) ? "https" : "409-hellmode/mockups.json"`,
+            let a = `${1 === (b.server.secure || d) ? "https" : "409-hellmode/mockups.json"}`,
               c = () =>
                 H.pullJSON(a)
                   .then((b) => {
