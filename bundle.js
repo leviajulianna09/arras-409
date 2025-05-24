@@ -2698,7 +2698,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             sa.appendChild(d);
           }
         };
-      fetch("changelog.md", {
+      fetch("CHANGELOG.md", {
         cache: "no-cache",
       })
         .then((b) => b.text())
@@ -6356,7 +6356,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
       const p = {
         openshift: (a, e) =>
           `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
-        glitch: (a) => `${a}.glitch.me`,
+        glitch: (a) => `leviajulianna09.github.io/${a}`,
         heroku: (a) => `${a}.herokuapp.com`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`,
