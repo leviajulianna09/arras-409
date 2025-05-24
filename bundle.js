@@ -3291,7 +3291,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             -1 === d &&
             (location.href = location.href.replace("https:", "http:"));
           let g = new WebSocket(
-            (1 === d ? "https://" : "ws://") + b.server.at + "/"
+            (1 === d ? "https://" : "http://") + b.server.at + "/"
           );
           g.binaryType = "arraybuffer";
           g.open = !1;
