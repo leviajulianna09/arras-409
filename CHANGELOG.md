@@ -1,6 +1,6 @@
-# May 23, 2025 - Announcement
+# Jul. 8, 2025 - Announcement
 
-- Game has been moved to Github as Glitch is basically removing all of its features for... some reason? But github is better and I should've done this awhile ago lol.
+- Game will be unplayable for potentially quite a while until i find an alternative option for web hosting.
 
 # Mar. 27, 2025 - Beta 1.50
 
