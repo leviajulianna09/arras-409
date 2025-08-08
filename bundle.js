@@ -6354,7 +6354,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
       const p = {
         openshift: (a, e) =>
           `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
-        glitch: (a) => `${a}.wuaze.com`,
+        glitch: (a) => `${a}.netlify.app`,
         heroku: (a) => `${a}.herokuapp.com`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`,
@@ -6576,7 +6576,7 @@ let c14 = new Audio("https://cdn.glitch.global/812f72e5-bc1a-43cd-97cc-0669969b1
             id: "01",
             type: "main",
             code: "glitch-singapore-3",
-            at: p.glitch("giga-test"), //oops lmao (should be 409-hellmode/409-hellmode-new)
+            at: p.glitch("celadon-gumdrop-16bbeb"),
             prefer: !0,
             featured: 0, // For Featured Status.
           },
